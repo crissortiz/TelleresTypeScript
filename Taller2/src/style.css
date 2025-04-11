@@ -1,0 +1,52 @@
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: #24a4b4 ;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+tbody {
+    background-color: #F0F0F0;
+}
+
+#seriesTable thead {
+    border-top: 2px solid #f0f0f0;
+  }
+
+.series-id {
+    font-weight: bold;
+    color: #000000;
+}
+
+.series-name {
+    font-weight: bold;
+    color: #11c0de ;
+}
+
+.btn {
+    background-color: #24a4bc;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.card {
+    background-color: #F0F0F0;
+}
