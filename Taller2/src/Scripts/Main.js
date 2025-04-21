@@ -44,12 +44,12 @@ function showInfoSerie(serie) {
     const serieDescription = document.getElementById('serieDescription');
     const serieLink = document.getElementById('serieLink');
 
-    serieImage.src = serie.getImage(); // Asegúrate de que esto sea una URL
+    serieImage.src = serie.getImage(); 
     serieImage.alt = `Image of ${serie.getName()}`;
     serieTitle.textContent = serie.getName();
     serieDescription.textContent = serie.getDescription();
     serieLink.href = serie.getLink();
-    serieLink.target = '_blank'; // Para abrir en nueva pestaña
+    serieLink.target = '_blank';
 
     cardContainer.style.display = 'block';
 }

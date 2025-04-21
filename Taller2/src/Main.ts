@@ -45,7 +45,7 @@ function showInfoSerie(serie: any): void {
     const serieDescription: HTMLElement = document.getElementById('serieDescription')!;
     const serieLink: HTMLAnchorElement = document.getElementById('serieLink') as HTMLAnchorElement;
 
-    serieImage.src = serie.getImage(); // URL de imagen desde web
+    serieImage.src = serie.getImage();
     serieImage.alt = `Image of ${serie.getName()}`;
     serieTitle.textContent = serie.getName();
     serieDescription.textContent = serie.getDescription();
