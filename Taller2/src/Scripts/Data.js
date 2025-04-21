@@ -1,11 +1,12 @@
 var Serie = /** @class */ (function () {
-    function Serie(id, name, channel, seasons, description, link) {
+    function Serie(id, name, channel, seasons, description, link, image) {
         this.id = id;
         this.name = name;
         this.channel = channel;
         this.seasons = seasons;
         this.description = description;
         this.link = link;
+        this.image = image;
     }
     Serie.prototype.getId = function () {
         return this.id;
@@ -18,15 +19,19 @@ var Serie = /** @class */ (function () {
     };
     Serie.prototype.getSeasons = function () {
         return this.seasons;
-
+    };
     series.prototype.getDescription = function (){
         return this.description;
-    }
+    };
 
     series.prototype.getLink = function (){
         return this.link;
-    }
     };
+
+    series.prototype.getImage = function (){
+        return this.image;
+    };
+    
     Serie.prototype.setId = function (id) {
         this.id = id;
     };
@@ -45,6 +50,10 @@ var Serie = /** @class */ (function () {
     };
     Serie.prototype.setLink = function (link) {
         this.seasons = link;
+    };
+
+    Serie.prototype.setImage = function (image) {
+        this.image = image;
     };
     return Serie;
 }());

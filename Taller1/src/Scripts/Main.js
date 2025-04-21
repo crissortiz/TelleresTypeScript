@@ -1,6 +1,9 @@
 import { series } from './Data.js';
+
 var seriesTable = document.getElementById('seriesTable');
+
 showSeries(series);
+
 function showSeries(series) {
     var seriesList = document.createElement('tbody');
     var totalSeasons = 0;
